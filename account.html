@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="shipping"><i class="bi bi-truck"></i> FREE SHIPPING WORLDWIDE <i class="bi bi-truck"></i>
+            </div>
+        </div>
+    </header>
+    <div class="panel">
+        <div class="web-name">
+            <p>Shopaholic.</p>
+        </div>
+        <div class="panel-ops">
+            <p>Home</p>
+            <p>Catalog</p>
+            <p>Shop</p>
+            <p>Pages</p>
+            <p>Blog</p>
+            <p>Docs</p>
+        </div>
+        <div class="panel-icons">
+            <div class="icons">
+                <a><i class="bi bi-search"></i></a>
+                <a href="./account.html"><i class="bi bi-person"></i></a>
+                <a><i class="bi bi-heart"></i></a>
+                <a><i class="bi bi-cart3"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="account-page">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-2">
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span onclick="Login()">Sign In</span>
+                            <span onclick="Register()">SIgn Up</span>
+                            <hr id="Indicator">
+                        </div>
+                        <form id="LogForm">
+                            <input type="text" placeholder="Username">
+                            <input type="text" placeholder="Password">
+                            <button type="submit" class="btn">Login</button>
+                            <br>
+                            <a href="">Forgot Password?</a>
+                        </form>
+                        <form id="RegForm">
+                            <input type="text" placeholder="Username">
+                            <input type="text" placeholder="Email">
+                            <input type="text" placeholder="Password">
+                            <button type="submit" class="btn">Register</button>
+                            <br>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot-panel1">
+            Back to Top
+        </div>
+        <div class="foot-panel2">
+            <ul>
+                <p>Shopaholic.</p>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-youtube"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-instagram"></i>
+            </ul>
+            <ul>
+                <p>SUPPORT</p>
+                <a>Contact Us</a>
+                <a>FAQs</a>
+                <a>Size Guide</a>
+                <a>Shipping & Returns</a>
+
+            </ul>
+            <ul>
+                <p>SHOP</p>
+                <a>Men's Shopping</a>
+                <a>Women's Shopping</a>
+                <a>Kids' Shopping</a>
+                <a>Discounts</a>
+            </ul>
+            <ul>
+                <p>COMPANY</p>
+                <a>Our Story</a>
+                <a>Careers</a>
+                <a>Terms & Conditions</a>
+                <a>Privacy & Cookie policy</a>
+
+            </ul>
+            <ul>
+                <p>CONTACT</p>
+                <a>111-222-333</a>
+                <a>444-555-666</a>
+                <a>help@shopaholic.com</a>
+                <a></a>
+
+            </ul>
+            <div>
+                <h5>Want style Ideas and Treats?</h5>
+                <input type="text" id="taskInput" placeholder="Enter E-mail">
+                <button id="addTaskBtn">Subscribe</button>
+            </div>
+        </div>
+        <div class="foot-panel3">
+            <i class="bi bi-c-circle"></i> All rights Reserved.
+        </div>
+    </footer>
+    <script>
+        var LoginForm = document.getElementById("LogForm");
+        var RegForm = document.getElementById("RegForm");
+        var Indicator = document.getElementById("Indicator");
+
+        function Login() {
+            RegForm.style.transform = "translateX(300px)";
+            LoginForm.style.transform = "translateX(300px)";
+            Indicator.style.transform = "translateX(0px)";
+        }
+        function Register() {
+            RegForm.style.transform = "translateX(0px)";
+            LoginForm.style.transform = "translateX(0px)";
+            Indicator.style.transform = "translateX(100px)";
+        }
+
+
+    </script>
+</body>
+
+</html>
