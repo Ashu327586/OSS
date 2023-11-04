@@ -358,6 +358,7 @@ ul p {
     width: 300px;
     height: 400px;
     position: relative;
+    left: 400px;
     text-align: center;
     padding: 20px 0px;
     margin: auto;
