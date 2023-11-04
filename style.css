@@ -1,100 +1,122 @@
-.nav-bar{
-    height: 40px;
-    background-color:#f5f5f5;
+a {
+    color: #1f1f1f;
 }
-.shipping{
-    color:black;
+
+.nav-bar {
+    height: 40px;
+    background-color: #f5f5f5;
+}
+
+.shipping {
+    color: black;
     text-align: center;
     font-weight: 500;
     font-size: 1rem;
     letter-spacing: 0.02rem;
     padding: 10px;
 }
-.shipping i{
-    color:black;
+
+.shipping i {
+    color: black;
 }
-.panel{
-    height:90px;
+
+.panel {
+    height: 90px;
     background-color: #ffffff;
-    display:flex;
-    color:#1f1f1f;
+    display: flex;
+    color: #1f1f1f;
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
 }
-.panel-ops p{
-    display:inline;
-    margin-left:25px;
+
+.panel-ops p {
+    display: inline;
+    margin-left: 25px;
     cursor: pointer;
     font-weight: 300px;
 }
-.panel-ops p:hover{
-    color:red;
+
+.panel-ops p:hover {
+    color: red;
 }
-.panel-ops{
-    width:50%;
+
+.panel-ops {
+    width: 50%;
     font-size: 20px;
     font-weight: 400;
     text-align: center;
 }
-.icons{
+
+.icons {
     font-size: 20px;
     font-weight: 400;
     justify-content: space-evenly;
-    margin-left:25px;
+    margin-left: 25px;
 }
-.icons i:hover{
-    color:orange;
+
+.icons i:hover {
+    color: orange;
 }
-.icons i{
-    margin-left:25px;
+
+.icons i {
+    margin-left: 25px;
     cursor: pointer;
 }
-.web-name p{
-    font-size:25px;
-    font-weight:1000;
+
+.web-name p {
+    font-size: 25px;
+    font-weight: 1000;
     padding-top: 10px;
     cursor: pointer;
     color: #1f1f1f;
 }
-.deals{
+
+.deals {
     height: 48px;
     background-color: #1f1f1f;
 
 }
-.deal{
-    color:#ffffff;
+
+.deal {
+    color: #ffffff;
     text-align: center;
     font-weight: 500;
     font-size: 1rem;
     letter-spacing: 0.02rem;
     padding: 10px;
-    
+
 }
-.deal i{
-    color:orange;
+
+.deal i {
+    color: orange;
 }
-.box{
+
+.box {
     height: 500px;
     border: 2px solid white;
-    width:34%;
+    width: 34%;
     text-align: center;
 }
-.shop{
+
+.shop {
     display: flex;
-    height:500px;
+    height: 500px;
     text-align: inline-block;
 }
-.image{
-    height:500px;
-    background-size:cover;
+
+.image {
+    height: 500px;
+    background-size: cover;
 }
-.centered{
-    display:inline-block;
+
+.centered {
+    display: inline-block;
 }
-h3{
-    color:white;
-    font-weight:1000;
+
+h3 {
+    color: white;
+    font-weight: 1000;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-top: 70%;
     padding-bottom: 110%;
@@ -103,195 +125,225 @@ h3{
 
 .btn {
     border: 3px solid white;
-    background-color:white;
-    color:white;
+    background-color: white;
+    color: white;
     font-size: 16px;
 }
-  .shopnow{
-    border-color:white;
-    color:#1f1f1f;
+
+.shopnow {
+    border-color: white;
+    color: #1f1f1f;
     padding: 14px 28px;
-    margin-bottom:30%;
+    margin-bottom: 30%;
     border-color: white;
 }
-.btn:hover{
+
+.btn:hover {
     color: #1f1f1f;
     background-color: white;
 }
-.msg{
+
+.msg {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-    padding-top:30px;
-    font-size:14px ;
+    padding-top: 30px;
+    font-size: 14px;
     font-weight: 500;
-    color:white;
+    color: white;
 }
-.msg i{
-    color:red ;
+
+.msg i {
+    color: red;
     font-size: 18px;
 }
-.msgs{
+
+.msgs {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
     text-align: center;
-    color:#767676 ;
+    color: #767676;
 }
-.sec{
+
+.sec {
     align-items: center;
     height: 130px;
     background-color: #1f1f1f;
     margin-top: 10px;
     margin-bottom: 90px;
 }
-h6{
+
+h6 {
     text-align: center;
     margin-bottom: 10px;
     color: #909090;
     font-size: 15px;
- }
-h2{
-   text-align: center;
-   font-size:36px;
-   margin-bottom:20px;
-   color: #1f1f1f;
 }
-.message p{
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #1f1f1f;
+}
+
+.message p {
     text-align: center;
     font-size: 16px;
     color: #525252;
 }
-.collection{
+
+.collection {
     display: flex;
-   justify-content: space-evenly;
-   margin-top:45px;
-   cursor: pointer;
+    justify-content: space-evenly;
+    margin-top: 45px;
+    cursor: pointer;
 }
-.coll1{
+
+.coll1 {
     height: 400px;
-    width:30%;
+    width: 30%;
     justify-content: space-evenly;
     margin-right: 15px;
-    margin-left:15px;
+    margin-left: 15px;
 }
-.coll2{
+
+.coll2 {
     height: 400px;
-    width:60%;
+    width: 60%;
     justify-content: space-evenly;
     margin-right: 15px;
 }
-.image1{
-    height:400px;
-    background-size:cover;
+
+.image1 {
+    height: 400px;
+    background-size: cover;
 }
-.bag-centered{
-    color:#f5f5f5;
+
+.bag-centered {
+    color: #f5f5f5;
     text-align: center;
     padding-top: 50%;
     padding-bottom: 50%;
-    font-weight:800;
+    font-weight: 800;
     font-size: 25px;
     cursor: pointer;
 }
-.image2{
-    height:400px;
-    background-size:cover;
+
+.image2 {
+    height: 400px;
+    background-size: cover;
 }
-.shirt-centered{
-    color:#1f1f1f;
+
+.shirt-centered {
+    color: #1f1f1f;
     text-align: center;
     padding-top: 20%;
-    padding-right:50%;
-    font-weight:800;
+    padding-right: 50%;
+    font-weight: 800;
     font-size: 25px;
     cursor: pointer;
 }
-.collection2{
+
+.collection2 {
     display: flex;
-   justify-content: space-evenly;
-   margin-top:45px;
-   cursor: pointer;
+    justify-content: space-evenly;
+    margin-top: 45px;
+    cursor: pointer;
 }
-.coll11{
+
+.coll11 {
     height: 400px;
-    width:60%;
+    width: 60%;
     justify-content: space-evenly;
     margin-right: 15px;
-    margin-left:15px;
+    margin-left: 15px;
 }
-.coll22{
+
+.coll22 {
     height: 400px;
-    width:30%;
+    width: 30%;
     justify-content: space-evenly;
     margin-right: 15px;
     margin-bottom: 15px;
 }
-.image3{
-    height:400px;
-    background-size:cover;
+
+.image3 {
+    height: 400px;
+    background-size: cover;
 }
-.dress-centered{
-    color:#1f1f1f;
+
+.dress-centered {
+    color: #1f1f1f;
     text-align: center;
     padding-top: 20%;
-    padding-right:50%;
-    font-weight:800;
+    padding-right: 50%;
+    font-weight: 800;
     font-size: 25px;
     cursor: pointer;
 }
-.image4{
-    height:400px;
-    background-size:cover;
+
+.image4 {
+    height: 400px;
+    background-size: cover;
 }
-.sweatshirt-centered{
-    color:#f5f5f5;
+
+.sweatshirt-centered {
+    color: #f5f5f5;
     text-align: center;
-    padding-top:50%;
+    padding-top: 50%;
     padding-bottom: 50%;
-    font-weight:800;
+    font-weight: 800;
     font-size: 25px;
     cursor: pointer;
 }
-.foot-panel2{
+
+.foot-panel2 {
     background-color: #1f1f1f;
     color: white;
-    height:230px;
+    height: 230px;
     display: flex;
     justify-content: space-evenly;
     padding-top: 30px;
 }
-ul a{
-    display:block;
+
+ul a {
+    display: block;
     font-size: 0.85rem;
     cursor: pointer;
     color: #bababa;
 }
-.foot-panel2 i{
+
+.foot-panel2 i {
     cursor: pointer;
-  word-spacing: 15px;
+    word-spacing: 15px;
 }
-ul p{
+
+ul p {
     color: #ffffff;
     font-weight: 400;
 }
-.foot-panel1{
+
+.foot-panel1 {
     background-color: #525252;
     color: white;
     height: 50px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    font-size:15px;
+    font-size: 15px;
     cursor: pointer;
 }
-.footer{
+
+.footer {
     margin-bottom: 15px;
 }
-.foot-panel3{
+
+.foot-panel3 {
     background-color: #1f1f1f;
-    border-top:0.5px solid #909090;
-    color:white;
-   text-align: center;
-   height: 50px;
+    border-top: 0.5px solid #909090;
+    color: white;
+    text-align: center;
+    height: 50px;
 }
